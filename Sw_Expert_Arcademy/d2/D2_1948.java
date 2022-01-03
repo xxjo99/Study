@@ -13,7 +13,6 @@ public class D2_1948 {
 		int[] day = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 		int t = Integer.parseInt(br.readLine());
 		
-		
 		for (int test = 1; test <= t; test++) {
 			StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 			int amonth = Integer.parseInt(st.nextToken()) - 1;
