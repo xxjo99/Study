@@ -1,0 +1,17 @@
+package basic100;
+import java.util.Scanner;
+
+public class Ex33 {
+
+	public static void main(String[] args) {
+		// 8진수 -> 10진수
+		Scanner sc = new Scanner(System.in);
+		String a = sc.nextLine();
+		int b = Integer.valueOf(a,8);
+		
+		System.out.println(b);
+		
+		sc.close();
+	}
+
+}
