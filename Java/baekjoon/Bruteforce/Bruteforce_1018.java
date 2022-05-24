@@ -35,9 +35,9 @@ public class Bruteforce_1018 {
 	}
 
 	public static void main(String[] args) throws IOException {
-		// Ã¼½ºÆÇ ´Ù½Ã Ä¥ÇÏ±â
+		// ì²´ìŠ¤íŒ ë‹¤ì‹œ ì¹ í•˜ê¸°
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
+
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 		int n = Integer.parseInt(st.nextToken());
 		int m = Integer.parseInt(st.nextToken());
@@ -48,9 +48,9 @@ public class Bruteforce_1018 {
 
 			for (int j = 0; j < m; j++) {
 				if (str.charAt(j) == 'W') {
-					arr[i][j] = true; // WÀÏ ¶§´Â true
+					arr[i][j] = true; // Wï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ true
 				} else {
-					arr[i][j] = false; // BÀÏ ¶§´Â false
+					arr[i][j] = false; // Bï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ false
 				}
 
 			}

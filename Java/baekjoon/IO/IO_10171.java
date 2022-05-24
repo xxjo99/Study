@@ -3,7 +3,7 @@ package io;
 public class IO_10171 {
 
 	public static void main(String[] args) {
-		/* °í¾çÀÌ Ãâ·Â */
+		// ê³ ì–‘ì´
 		System.out.println("\\    /\\");
 		System.out.println(" )  ( ')");
 		System.out.println("(  /  )");

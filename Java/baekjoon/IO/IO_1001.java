@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class IO_1001 {
 
 	public static void main(String[] args) {
-		/* 입력받은 숫자를 이용해 뺄셈 계산 */
+		// A-B
 		Scanner sc = new Scanner(System.in);
 		int a, b;
 		a = sc.nextInt();

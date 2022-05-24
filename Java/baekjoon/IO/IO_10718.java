@@ -3,9 +3,9 @@ package io;
 public class IO_10718 {
 
 	public static void main(String[] args) {
-		/* Ãâ·Â */
-		System.out.println("°­ÇÑÄ£±¸ ´ëÇÑÀ°±º");
-		System.out.println("°­ÇÑÄ£±¸ ´ëÇÑÀ°±º");
+		// We love krill
+		System.out.println("ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 	}
 
 }

@@ -5,19 +5,19 @@ import java.util.Scanner;
 public class If_1330 {
 
 	public static void main(String[] args) {
-		/* ¼ö Å©±â ºñ±³ */
+		/* ë‘ìˆ˜ ë¹„êµí•˜ê¸° */
 		Scanner sc = new Scanner(System.in);
 		int a, b;
 		a = sc.nextInt();
 		b = sc.nextInt();
-		if (a>b) {
+		if (a > b) {
 			System.out.println(">");
-		} else if (a<b) {
+		} else if (a < b) {
 			System.out.println("<");
 		} else {
 			System.out.println("==");
 		}
 		sc.close();
 	}
-	
+
 }

@@ -1,21 +1,21 @@
-package while_;
+package for_;
 
 import java.util.Scanner;
 
-public class While_1110 {
+public class For_1110 {
 
 	public static void main(String[] args) {
-		/* ´õÇÏ±â »çÀÌÅ¬ */
+		// ë”í•˜ê¸°ì‚¬ì´í´
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int number = n;
 		int count = 0;
 		do {
-			number = ((number%10*10) + ((number/10+number%10)%10));
+			number = ((number % 10 * 10) + ((number / 10 + number % 10) % 10));
 			count++;
-			} while(number != n);
+		} while (number != n);
 		System.out.println(count);
 		sc.close();
-		} 
-	
 	}
+
+}

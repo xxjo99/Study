@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class IO_10869 {
 
 	public static void main(String[] args) {
-		/* »çÄ¢¿¬»ê */
+		// ì‚¬ì¹™ì—°ì‚°
 		Scanner sc = new Scanner(System.in);
-		int a,b;
+		int a, b;
 		a = sc.nextInt();
 		b = sc.nextInt();
-		System.out.println(a+b);
-		System.out.println(a-b);
-		System.out.println(a*b);
-		System.out.println(a/b);
-		System.out.println(a%b);
+		System.out.println(a + b);
+		System.out.println(a - b);
+		System.out.println(a * b);
+		System.out.println(a / b);
+		System.out.println(a % b);
 		sc.close();
 	}
 

@@ -8,12 +8,12 @@ public class For_10950 {
 		/* A+B */
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		for (int i = 1; i<=n; i++) {
+		for (int i = 1; i <= n; i++) {
 			int a = sc.nextInt();
 			int b = sc.nextInt();
-			System.out.println(a+b);
+			System.out.println(a + b);
 		}
 		sc.close();
 	}
-	
+
 }

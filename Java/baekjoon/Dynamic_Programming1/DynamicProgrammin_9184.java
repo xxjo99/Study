@@ -1,4 +1,4 @@
-package Dynamic_Programming;
+package Dynamic_Programming1;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -32,7 +32,7 @@ public class DynamicProgrammin_9184 {
 	}
 
 	public static void main(String[] args) throws IOException {
-		// ½Å³ª´Â ÇÔ¼ö ½ÇÇà
+		// ì‹ ë‚˜ëŠ” í•¨ìˆ˜ì‹¤í–‰
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		while (true) {
@@ -45,11 +45,11 @@ public class DynamicProgrammin_9184 {
 				break;
 			}
 
-            if(a <= 0 || b <= 0 || c <= 0) {
-                System.out.printf("w(%d, %d, %d) = %d \n", a, b, c, 1);
-            }else {
-                System.out.printf("w(%d, %d, %d) = %d \n", a, b, c, w(a, b, c));
-            }
+			if (a <= 0 || b <= 0 || c <= 0) {
+				System.out.printf("w(%d, %d, %d) = %d \n", a, b, c, 1);
+			} else {
+				System.out.printf("w(%d, %d, %d) = %d \n", a, b, c, w(a, b, c));
+			}
 		}
 
 	}

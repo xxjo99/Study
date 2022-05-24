@@ -29,7 +29,7 @@ public class Backtracking_15649 {
 	}
 
 	public static void main(String[] args) throws IOException, NumberFormatException {
-		// N°ú M (1)
+		// Nê³¼ M (1)
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		int n = Integer.parseInt(br.readLine());
@@ -37,7 +37,7 @@ public class Backtracking_15649 {
 		
 		arr = new int[m];
 		visit = new boolean[n];
-		
+
 		dfs(n, m, 0);
 
 	}

@@ -1,4 +1,4 @@
-package Dynamic_Programming;
+package Dynamic_Programming1;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -16,7 +16,7 @@ public class DynamicProgrammin_1904 {
 	}
 
 	public static void main(String[] args) throws IOException {
-		// 01≈∏¿œ
+		// 01ÌÉÄÏùº
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		int n = Integer.parseInt(br.readLine());
@@ -27,7 +27,7 @@ public class DynamicProgrammin_1904 {
 		for (int i = 3; i < arr.length; i++) {
 			arr[i] = -1;
 		}
-		
+
 		System.out.println(tile(n));
 	}
 

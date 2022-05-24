@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class For_8393 {
 
 	public static void main(String[] args) {
-		/* ÇÕ */
+		/* í•© */
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int sum = 0;

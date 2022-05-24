@@ -7,7 +7,7 @@ import java.io.IOException;
 public class DynamicProgrammin_1463 {
 
 	public static void main(String[] args) throws IOException {
-		// 1·Î ¸¸µé±â
+		// 1ë¡œ ë§Œë“¤ê¸°
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		int n = Integer.parseInt(br.readLine());
@@ -20,13 +20,12 @@ public class DynamicProgrammin_1463 {
 			if (i % 2 == 0) {
 				dp[i] = Math.min(dp[i], dp[i / 2] + 1);
 			}
-			if (dp[i] % 3 == 0) {
-				i = Math.min(dp[i], dp[i / 3] + 1);
+			if (i % 3 == 0) {
+				dp[i] = Math.min(dp[i], dp[i / 3] + 1);
 			}
 		}
-		
-		System.out.println(dp[n]);
-		
-	}
 
+		System.out.println(dp[n]);
+
+	}
 }

@@ -1,33 +1,34 @@
 package Greedy;
+
 import java.io.*;
 import java.util.*;
 
 public class Greedy_1789 {
 
 	public static void main(String[] args) throws IOException {
-		// ¼öµéÀÇ ÇÕ
+		// ìˆ˜ë“¤ì˜ í•©
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-		
+
 		StringTokenizer st;
-		
+
 		st = new StringTokenizer(br.readLine(), " ");
-		long n = Long.parseLong(st.nextToken()); // ÇÕÀÇ ÃÖ´ë°ª
-		
+		long n = Long.parseLong(st.nextToken());
+
 		long count = 1;
 		long sum = 1;
-		
-		while(sum<n){
-      		count++;
-      		sum+=count;
-      	}
-      	
-      	if(sum>n){
-  			count--;
-  		}
-		
+
+		while (sum < n) {
+			count++;
+			sum += count;
+		}
+
+		if (sum > n) {
+			count--;
+		}
+
 		bw.write(count + "\n");
-		
+
 		bw.flush();
 		bw.close();
 		br.close();

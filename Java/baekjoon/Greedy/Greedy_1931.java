@@ -1,4 +1,5 @@
 package Greedy;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.BufferedWriter;
@@ -11,44 +12,44 @@ import java.util.Comparator;
 public class Greedy_1931 {
 
 	public static void main(String[] args) throws IOException {
-		// È¸ÀÇ½Ç ¹èÁ¤
+		// íšŒì˜ì‹¤ ë°°ì •
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-		
+
 		int n = Integer.parseInt(br.readLine());
-		
-		int[][] time = new int[n][2]; // È¸ÀÇ½Ã°£À» ÀúÀåÇÒ ¹è¿­
-		
+
+		int[][] time = new int[n][2];
+
 		StringTokenizer st;
-		
+
 		for (int i = 0; i < n; i++) {
 			st = new StringTokenizer(br.readLine(), " ");
-			time[i][0] = Integer.parseInt(st.nextToken()); // ½ÃÀÛ½Ã°£
-			time[i][1] = Integer.parseInt(st.nextToken()); // Á¾·á½Ã°£
+			time[i][0] = Integer.parseInt(st.nextToken());
+			time[i][1] = Integer.parseInt(st.nextToken());
 		}
-		
+
 		Arrays.sort(time, new Comparator<int[]>() {
-			
+
 			public int compare(int[] t1, int[] t2) {
-				if(t1[1] == t2[1]) {
+				if (t1[1] == t2[1]) {
 					return t1[0] - t2[0];
 				}
 				return t1[1] - t2[1];
 			}
 		});
-		
+
 		int count = 0;
 		int prev_end_time = 0;
-		
+
 		for (int i = 0; i < n; i++) {
-			if(prev_end_time <= time[i][0]) {
+			if (prev_end_time <= time[i][0]) {
 				prev_end_time = time[i][1];
 				count++;
 			}
 		}
-		
+
 		bw.write(count + "\n");
-		
+
 		br.close();
 		bw.flush();
 		bw.close();

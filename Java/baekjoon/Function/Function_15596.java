@@ -1,15 +1,15 @@
 package function;
 
 public class Function_15596 {
-	// Á¤¼ö N°³ÀÇ ÇÕ
-    long sum(int[] a) {
-        long ans = 0;
-        
-        for (int i = 0; i < a.length; i++) {
-        	ans += a[i];
-        }
-        
-        return ans;
-    }
-    
+	// ì •ìˆ˜ Nê°œì˜ í•©
+	long sum(int[] a) {
+		long ans = 0;
+
+		for (int i = 0; i < a.length; i++) {
+			ans += a[i];
+		}
+
+		return ans;
+	}
+
 }

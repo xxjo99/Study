@@ -1,26 +1,24 @@
 package bruteforce;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-
 public class Bruteforce_1476 {
 
 	public static void main(String[] args) throws IOException {
-		// ³¯Â¥ °è»ê
+		// ë‚ ì§œê³„ì‚°
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
-		// (1 ¡Â E ¡Â 15, 1 ¡Â S ¡Â 28, 1 ¡Â M ¡Â 19)
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 		int e = Integer.parseInt(st.nextToken());
 		int s = Integer.parseInt(st.nextToken());
 		int m = Integer.parseInt(st.nextToken());
-		
+
 		int E = 1;
 		int S = 1;
 		int M = 1;
-		
+
 		int count = 1;
 		while (E != e || M != m || S != s) {
 			E++;
@@ -37,9 +35,9 @@ public class Bruteforce_1476 {
 				M = 1;
 			}
 		}
-		
-		System.out.println(count);	
-		
+
+		System.out.println(count);
+
 	}
 
 }

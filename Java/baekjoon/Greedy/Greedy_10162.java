@@ -1,19 +1,20 @@
 package Greedy;
+
 import java.util.Scanner;
 
 public class Greedy_10162 {
 
 	public static void main(String[] args) {
-		// ÀüÀÚ·¹ÀÎÁö
+		// ì „ìë ˆì¸ì§€
 		Scanner sc = new Scanner(System.in);
-		
-		int t = sc.nextInt(); // ¿ä¸®½Ã°£
-				
-		int[] arr = {300, 60, 10}; // ¹öÆ°ÀÇ ½Ã°£
-		
-		int[] count = new int[3]; //  a, b, c È½¼ö ÀúÀå
-				
-		if (t%10 != 0) {
+
+		int t = sc.nextInt();
+
+		int[] arr = { 300, 60, 10 };
+
+		int[] count = new int[3];
+
+		if (t % 10 != 0) {
 			System.out.println("-1");
 		} else {
 			for (int i = 0; i < 3; i++) {
@@ -24,7 +25,7 @@ public class Greedy_10162 {
 			}
 			System.out.println(count[0] + " " + count[1] + " " + count[2]);
 		}
-		
+
 		sc.close();
 	}
 
