@@ -1,6 +1,6 @@
-package array_Easy;
+package array;
 
-public class array_Easy_27 {
+public class Array_27 {
 	
     public static int removeElement(int[] nums, int val) {
     	int index = 0;

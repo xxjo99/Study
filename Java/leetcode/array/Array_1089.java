@@ -1,6 +1,6 @@
-package arrays101;
+package array;
 
-public class Arrays101_4 {
+public class Array_1089 {
 
 	public static void duplicateZeros(int[] arr) {
 		int zeroCount = 0;

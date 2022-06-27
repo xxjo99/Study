@@ -1,8 +1,8 @@
-package arrays101;
+package array;
 
 import java.util.Arrays;
 
-public class Arrays101_11 {
+public class Array_1051 {
 
 	public static int heightChecker(int[] heights) {
 		int[] expected = heights.clone();

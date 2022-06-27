@@ -1,6 +1,6 @@
-package arrays101;
+package array;
 
-public class Arrays101_1 {
+public class Array_485 {
 
 	public static int findMaxConsecutiveOnes(int[] nums) {
 		int result = 0;

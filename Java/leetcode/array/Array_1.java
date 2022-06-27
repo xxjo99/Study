@@ -1,6 +1,6 @@
-package array_Easy;
+package array;
 
-public class array_Easy_1 {
+public class Array_1 {
 	
     public static int[] twoSum(int[] nums, int target) {
     	int[] result = new int[2];

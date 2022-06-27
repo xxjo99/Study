@@ -1,6 +1,6 @@
-package array_Easy;
+package array;
 
-public class array_Easy_35 {
+public class Array_35 {
 
 	public static int searchInsert(int[] nums, int target) {
 		if (target < nums[0]) {

@@ -1,6 +1,6 @@
-package arrays101;
+package array;
 
-public class Arrays101_8 {
+public class Array_1299 {
 
 	public static int[] replaceElements(int[] arr) {
 		int[] replaceArr = new int[arr.length];

@@ -1,6 +1,6 @@
-package array_Easy;
+package array;
 
-public class array_Easy_66 {
+public class Array_66 {
 
 	public static int[] plusOne(int[] digits) {
 		int n = digits.length;

@@ -1,6 +1,6 @@
-package arrays101;
+package array;
 
-public class Arrays101_7 {
+public class Array_941 {
 
     public static boolean validMountainArray(int[] arr) {
         boolean result = true;

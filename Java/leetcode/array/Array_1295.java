@@ -1,6 +1,6 @@
-package arrays101;
+package array;
 
-public class Arrays101_2 {
+public class Array_1295 {
 
 	public static int findNumbers(int[] nums) {
 		int count = 0;

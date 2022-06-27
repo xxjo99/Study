@@ -1,6 +1,6 @@
-package arrays101;
+package array;
 
-public class Arrays101_5 {
+public class Array_88 {
 
 	public static void merge(int[] nums1, int m, int[] nums2, int n) {
 		int index = m + n - 1;

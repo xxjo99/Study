@@ -1,6 +1,6 @@
-package arrays101;
+package array;
 
-public class Arrays101_6 {
+public class Array_1346 {
 
 	public static boolean checkIfExist(int[] arr) {
 		boolean check = false;

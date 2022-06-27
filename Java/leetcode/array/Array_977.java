@@ -1,8 +1,8 @@
-package arrays101;
+package array;
 
 import java.util.Arrays;
 
-public class Arrays101_3 {
+public class Array_977 {
 
 	public static int[] sortedSquares(int[] nums) {
 		
@@ -17,7 +17,7 @@ public class Arrays101_3 {
 	}
 
 	public static void main(String[] args) {
-		// Find Numbers with Even Number of Digits
+		// Squares of a Sorted Array
 		int[] nums = { -7, -3, 2, 3, 11 };
 		int[] result = sortedSquares(nums);
 		for (int i : result) {

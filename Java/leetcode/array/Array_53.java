@@ -1,6 +1,6 @@
-package array_Easy;
+package array;
 
-public class array_Easy_53 {
+public class Array_53 {
 
 	public static int maxSubArray(int[] nums) {
 		int ans = nums[0];

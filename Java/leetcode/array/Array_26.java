@@ -1,6 +1,6 @@
-package array_Easy;
+package array;
 
-public class array_Easy_26 {
+public class Array_26 {
 	
     public static int removeDuplicates(int[] nums) {
     	int result = 1;

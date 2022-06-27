@@ -1,6 +1,6 @@
-package arrays101;
+package array;
 
-public class Arrays101_9 {
+public class Array_283 {
 
 	public static void moveZeroes(int[] nums) {
 		

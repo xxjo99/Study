@@ -1,6 +1,6 @@
-package arrays101;
+package array;
 
-public class Arrays101_10 {
+public class Array_905 {
 	
     public static int[] sortArrayByParity(int[] nums) {
         int[] result = new int[nums.length];
