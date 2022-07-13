@@ -1,12 +1,12 @@
-package problems1;
+package string;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 
-public class Problems1_2743 {
+public class String_2743 {
 
     public static void main(String[] args) throws IOException {
-        // ´Ü¾î ±æÀÌ Àç±â
+        // ï¿½Ü¾ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
           
         String s = br.readLine();

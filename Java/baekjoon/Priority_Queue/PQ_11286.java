@@ -8,7 +8,7 @@ import java.util.PriorityQueue;
 public class PQ_11286 {
 
 	public static void main(String[] args) throws IOException {
-		// ÃÖ´ë Èü
+		// Àı´ë°ª Èü
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		int n = Integer.parseInt(br.readLine());

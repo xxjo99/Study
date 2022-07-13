@@ -1,13 +1,13 @@
-package math2;
+package math;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 import java.util.StringTokenizer;
 
-public class Math2_3009 {
+public class Math_3009 {
 
 	public static void main(String[] args) throws IOException {
-		// ³×¹øÂ° Á¡
+		// ï¿½×¹ï¿½Â° ï¿½ï¿½
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		StringTokenizer st1 = new StringTokenizer(br.readLine(), " ");
@@ -24,7 +24,7 @@ public class Math2_3009 {
 		
 		int x4, y4 = 0;
 		
-		if (x1 == x2) { // x°ª ºñ±³
+		if (x1 == x2) { // xï¿½ï¿½ ï¿½ï¿½
 			x4 = x3;
 		} else if (x1 == x3) {
 			x4 = x2;
@@ -32,7 +32,7 @@ public class Math2_3009 {
 			x4 = x1;
 		}
 		
-		if (y1 == y2) { // y°ª ºñ±³
+		if (y1 == y2) { // yï¿½ï¿½ ï¿½ï¿½
 			y4 = y3;
 		} else if (y1 == y3) {
 			y4 = y2;

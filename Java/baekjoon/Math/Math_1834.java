@@ -1,12 +1,12 @@
-package problems1;
+package math;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 
-public class Problems1_1834 {
+public class Math_1834 {
 
     public static void main(String[] args) throws IOException {
-        // ³ª¸ÓÁö¿Í ¸òÀÌ °°Àº ¼ö
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         
         long n = Integer.parseInt(br.readLine());

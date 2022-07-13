@@ -1,13 +1,13 @@
-package math2;
+package math;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 import java.util.StringTokenizer;
 
-public class Math2_4153 {
+public class Math_4153 {
 
 	public static void main(String[] args) throws IOException {
-		// Á÷°¢»ï°¢Çü
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï°¢ï¿½ï¿½
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		while (true) {

@@ -1,27 +1,28 @@
-package math2;
+package math;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 import java.util.StringTokenizer;
 
-public class Math2_1085 {
+public class Math_1085 {
 
 	public static void main(String[] args) throws IOException {
-		// Á÷»ç°¢Çü¿¡¼­ÀÇ Å»Ãâ
+		// ï¿½ï¿½ï¿½ç°¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Å»ï¿½ï¿½
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
+
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 		int x = Integer.parseInt(st.nextToken());
 		int y = Integer.parseInt(st.nextToken());
 		int w = Integer.parseInt(st.nextToken());
 		int h = Integer.parseInt(st.nextToken());
-		
+
 		int m = w - x;
 		int n = h - y;
-		
-		int min1 = Math.min(m ,x);
-		int min2 = Math.min(n ,y);
-		
-		System.out.println(Math.min(min1,  min2));
+
+		int min1 = Math.min(m, x);
+		int min2 = Math.min(n, y);
+
+		System.out.println(Math.min(min1, min2));
 	}
 }

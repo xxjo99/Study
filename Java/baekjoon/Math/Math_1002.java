@@ -1,14 +1,14 @@
-package math2;
+package math;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 import java.util.StringTokenizer;
 
-public class Math2_1002 {
+public class Math_1002 {
 
 	public static void main(String[] args) throws IOException {
-		// ÅÍ·¿
+		// ï¿½Í·ï¿½
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		int t = Integer.parseInt(br.readLine());
@@ -21,18 +21,19 @@ public class Math2_1002 {
 
 			int a = (int) (Math.pow(arr[3] - arr[0], 2) + Math.pow(arr[4] - arr[1], 2));
 
-			// µÎ ¿øÀÇ Áß½ÉÀÌ °°°í, ¹ÝÁö¸§µµ °°À» ¶§ ( Á¢Á¡ÀÇ °³¼ö°¡ ¹«ÇÑÇÒ ¶§ )
+			// ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ( ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ )
 			if (arr[0] == arr[3] && arr[1] == arr[4] && arr[2] == arr[5]) {
 				System.out.println(-1);
-			} else if (a > Math.pow(arr[5] + arr[2], 2)) { // µÎ Á¡ »çÀÌÀÇ °Å¸®°¡ °¢ ¿øÀÇ ¹ÝÁö¸§ÀÇ ÇÕº¸´Ù Å¬ ¶§ (Á¢Á¡ÀÌ ¾øÀ» ¶§)
+			} else if (a > Math.pow(arr[5] + arr[2], 2)) { // ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å¸ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Õºï¿½ï¿½ï¿½ Å¬ ï¿½ï¿½ (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+															// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½)
 				System.out.println(0);
-			} else if (a < Math.pow(arr[5] - arr[2], 2)) { // ¿ø ¾È¿¡ ¿øÀÌ ÀÖÀ¸³ª ³»Á¢ÇÏÁö ¾ÊÀ» ¶§ (Á¢Á¡ÀÌ ¾øÀ» ¶§)
+			} else if (a < Math.pow(arr[5] - arr[2], 2)) { // ï¿½ï¿½ ï¿½È¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½)
 				System.out.println(0);
-			} else if (a == Math.pow(arr[5] - arr[2], 2)) { // ³»Á¢
+			} else if (a == Math.pow(arr[5] - arr[2], 2)) { // ï¿½ï¿½ï¿½ï¿½
 				System.out.println(1);
-			} else if (a == Math.pow(arr[5] + arr[2], 2)) { // ¿ÜÁ¢
+			} else if (a == Math.pow(arr[5] + arr[2], 2)) { // ï¿½ï¿½ï¿½ï¿½
 				System.out.println(1);
-			} else { // Á¢Á¢ 2°³
+			} else { // ï¿½ï¿½ï¿½ï¿½ 2ï¿½ï¿½
 				System.out.println(2);
 			}
 

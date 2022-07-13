@@ -1,13 +1,13 @@
-package problems1;
+package sort;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 import java.util.Arrays;
 
-public class Problems1_2822 {
+public class Sort_2822 {
 
     public static void main(String[] args) throws IOException {
-        // Á¡¼ö °è»ê
+        // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         
         int[] arr = new int[8];

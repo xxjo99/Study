@@ -1,4 +1,4 @@
-package problems1;
+package string;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -6,10 +6,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class Problems1_1259 {
+public class String_1259 {
 
     public static void main(String[] args) throws IOException {
-        //ÆÓ¸°µå·Ò¼ö
+        //ï¿½Ó¸ï¿½ï¿½ï¿½Ò¼ï¿½
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
 

@@ -1,13 +1,13 @@
-package math2;
+package math;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 
-public class Math2_9020 {
+public class Math_9020 {
 
 	public static void main(String[] args) throws IOException {
-		// °ñµå¹ÙÈåÀÇ ÃßÃø
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		boolean[] arr = new boolean[10001];

@@ -1,13 +1,13 @@
-package other;
+package math;
 
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class Baekjoon_18108 {
+public class Math_18108 {
 
 	public static void main(String[] args) throws IOException {
-		// 1998³â»ýÀÎ ³»°¡ ÅÂ±¹¿¡¼­´Â 2541³â»ý?!
+		// 1998ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Â±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 2541ï¿½ï¿½ï¿½?!
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		int n = Integer.parseInt(br.readLine());

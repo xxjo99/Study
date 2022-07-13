@@ -1,4 +1,5 @@
-package math1;
+package math;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
@@ -6,18 +7,18 @@ import java.io.IOException;
 public class Math_1193 {
 
 	public static void main(String[] args) throws IOException {
-		// ºÐ¼öÃ£±â
+		// ï¿½Ð¼ï¿½Ã£ï¿½ï¿½
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
+
 		int a = Integer.parseInt(br.readLine());
 		int count = 0;
 		int n = 0;
-		
+
 		while (true) {
 			n++;
 			count += n;
 			if (count >= a) {
-				if(n % 2 == 0) {
+				if (n % 2 == 0) {
 					System.out.println(a - count + n + "/" + (count - a + 1));
 				} else {
 					System.out.println((count - a + 1) + "/" + (a - count + n));

@@ -1,4 +1,5 @@
-package math1;
+package math;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
@@ -7,20 +8,19 @@ import java.util.StringTokenizer;
 public class Math_1712 {
 
 	public static void main(String[] args) throws IOException {
-		// ¼ÕÀÍºÐ±âÁ¡
+		// ï¿½ï¿½ï¿½ÍºÐ±ï¿½ï¿½ï¿½
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
+
 		StringTokenizer st = new StringTokenizer(br.readLine());
-		
-		int a = Integer.parseInt(st.nextToken()); // °íÁ¤ºñ¿ë
-		int b = Integer.parseInt(st.nextToken()); // »ý»êºñ¿ë
-		int c = Integer.parseInt(st.nextToken()); // ³ëÆ®ºÏ °¡°Ý
-		
+
+		int a = Integer.parseInt(st.nextToken()); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+		int b = Integer.parseInt(st.nextToken()); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+		int c = Integer.parseInt(st.nextToken()); // ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+
 		if (c <= b) {
 			System.out.println("-1");
-		} 
-		else {
-			System.out.println((a/(c-b)+1));
+		} else {
+			System.out.println((a / (c - b) + 1));
 		}
 
 	}

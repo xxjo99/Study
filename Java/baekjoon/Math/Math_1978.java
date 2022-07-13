@@ -1,14 +1,14 @@
-package math2;
+package math;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-public class Math2_1978 {
+public class Math_1978 {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		// ¼Ò¼öÃ£±â
+		// ï¿½Ò¼ï¿½Ã£ï¿½ï¿½
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		

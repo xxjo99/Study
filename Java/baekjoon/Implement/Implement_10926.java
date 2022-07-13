@@ -1,10 +1,10 @@
-package other;
+package Implement;
 
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class Baekjoon_10926 {
+public class Implement_10926 {
 
 	public static void main(String[] args) throws IOException {
 		// ??!

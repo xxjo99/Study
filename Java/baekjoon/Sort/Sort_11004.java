@@ -1,14 +1,14 @@
-package silver;
+package sort;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Arrays;
 
-public class Silver_11004 {
+public class Sort_11004 {
 
 	public static void main(String[] args) throws IOException {
-		// K¹øÂ° ¼ö
+		// Kï¿½ï¿½Â° ï¿½ï¿½
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");

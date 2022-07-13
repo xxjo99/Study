@@ -1,12 +1,12 @@
-package math2;
+package math;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 
-public class Math2_3053 {
+public class Math_3053 {
 
 	public static void main(String[] args) throws IOException {
-		// ¼ÒÀÎ¼ö ºÐÇØ
+		// ï¿½ï¿½ï¿½Î¼ï¿½ ï¿½ï¿½ï¿½ï¿½
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		double n = Double.parseDouble(br.readLine());

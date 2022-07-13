@@ -1,4 +1,4 @@
-package math1;
+package math;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.IOException;
 public class Math_2775 {
 
 	public static void main(String[] args) throws IOException {
-		// ºÎ³àÈ¸ÀåÀÌ µÉÅ×¾ß
+		// ï¿½Î³ï¿½È¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½×¾ï¿½
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		int t = Integer.parseInt(br.readLine());
